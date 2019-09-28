@@ -453,6 +453,7 @@
         <value condition="Window.IsVisible(script-script.extendedinfo-VideoList.xml)+!String.IsEmpty(Container(500).ListItem.Art(fanart))">$INFO[Container(500).ListItem.Art(fanart)]</value>
         <value condition="[Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml)]+!String.IsEmpty(Window.Property(fanart))">$INFO[Window.Property(fanart)]</value>
         <value condition="[Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)]+!String.IsEmpty(Window.Property(thumb))">$INFO[Window.Property(thumb)]</value>
+        <value condition="!String.IsEmpty(ListItem.Art(tvshow.fanart))">$INFO[ListItem.Art(tvshow.fanart)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
         <value condition="!String.IsEmpty(Container.Art(set.fanart))">$INFO[Container.Art(set.fanart)]</value>
         <value condition="[Window.IsVisible(MyVideoNav.xml)|Window.IsVisible(MyPlaylist.xml)]+[container.content(tvshows) | Container.Content(Seasons) | container.content(episodes)]">$VAR[TVShows.Art]</value>

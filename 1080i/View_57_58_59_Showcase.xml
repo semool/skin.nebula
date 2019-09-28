@@ -205,7 +205,6 @@
                         <posy>85</posy>
                         <width>295</width>
                         <height>396</height>
-                        <aspectratio aligny="center">scale</aspectratio>
                         <include>PosterThumb</include>
                         <include>ThumbBorder</include>
                     </control>
@@ -236,22 +235,22 @@
             </control>
             <control type="group">
                 <include content="ClearArtLogo">
-                    <param name="x" value="0"/>
+                    <param name="x" value="645r"/>
                     <param name="y" value="34"/>
-                    <param name="width" value="1920"/>
+                    <param name="width" value="300"/>
                     <param name="height" value="149"/>
                     <param name="visible" value="true"/>
-                    <param name="align" value="center"/>
-                    <param name="aligny" value="bottom"/>
+                    <param name="align" value="right"/>
+                    <param name="aligny" value="center"/>
                 </include>
                 <include content="StudioArt">
-                    <param name="x" value="0"/>
+                    <param name="x" value="645r"/>
                     <param name="y" value="34"/>
-                    <param name="width" value="1920"/>
+                    <param name="width" value="300"/>
                     <param name="height" value="149"/>
                     <param name="visible" value="true"/>
-                    <param name="align" value="center"/>
-                    <param name="aligny" value="bottom"/>
+                    <param name="align" value="right"/>
+                    <param name="aligny" value="center"/>
                 </include>
                 <include>CoverWrapPosterBounds</include>
                 <control type="group">
@@ -283,7 +282,6 @@
                     <posy>158</posy>
                     <width>520</width>
                     <height>693</height>
-                    <aspectratio aligny="center">scale</aspectratio>
                     <include>PosterThumb</include>
                     <include>ThumbBorder</include>
                 </control>
@@ -500,22 +498,22 @@
                 <ondown>505050</ondown>
             </control>
             <include content="ClearArtLogo">
-                <param name="x" value="0"/>
+                <param name="x" value="645r"/>
                 <param name="y" value="34"/>
-                <param name="width" value="1920"/>
+                <param name="width" value="300"/>
                 <param name="height" value="149"/>
                 <param name="visible" value="true"/>
-                <param name="align" value="center"/>
-                <param name="aligny" value="bottom"/>
+                <param name="align" value="right"/>
+                <param name="aligny" value="center"/>
             </include>
             <include content="StudioArt">
-                <param name="x" value="0"/>
+                <param name="x" value="645r"/>
                 <param name="y" value="34"/>
-                <param name="width" value="1920"/>
+                <param name="width" value="300"/>
                 <param name="height" value="149"/>
                 <param name="visible" value="true"/>
-                <param name="align" value="center"/>
-                <param name="aligny" value="bottom"/>
+                <param name="align" value="right"/>
+                <param name="aligny" value="center"/>
             </include>
             <include>CoverWrapSquareBounds</include>
             <control type="group">
@@ -738,22 +736,22 @@
                 <ondown>505050</ondown>
             </control>
             <include content="ClearArtLogo">
-                <param name="x" value="0"/>
+                <param name="x" value="645r"/>
                 <param name="y" value="34"/>
-                <param name="width" value="1920"/>
+                <param name="width" value="300"/>
                 <param name="height" value="149"/>
                 <param name="visible" value="true"/>
-                <param name="align" value="center"/>
-                <param name="aligny" value="bottom"/>
+                <param name="align" value="right"/>
+                <param name="aligny" value="center"/>
             </include>
             <include content="StudioArt">
-                <param name="x" value="0"/>
+                <param name="x" value="645r"/>
                 <param name="y" value="34"/>
-                <param name="width" value="1920"/>
+                <param name="width" value="300"/>
                 <param name="height" value="149"/>
                 <param name="visible" value="true"/>
-                <param name="align" value="center"/>
-                <param name="aligny" value="bottom"/>
+                <param name="align" value="right"/>
+                <param name="aligny" value="center"/>
             </include>
             <include>CoverWrapSquareBounds</include>
             <control type="group">

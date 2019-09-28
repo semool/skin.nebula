@@ -1694,10 +1694,10 @@
                         <effect type="fade" start="100" end="0" time="500" delay="3000"/>
                     </animation>
                     <posx>1560</posx>
-                    <posy>407</posy>
+                    <posy>493</posy>
                     <width>300</width>
-                    <height>235</height>
-                    <aspectratio align="right" aligny="bottom">keep</aspectratio>
+                    <height>149</height>
+                    <aspectratio align="right" aligny="center">keep</aspectratio>
                     <texture background="true">$VAR[VideoPlayerClearArt]</texture>
                 </control>
                 <control type="image">
@@ -1709,10 +1709,10 @@
                         <effect type="fade" start="0" end="100" time="500" delay="3000"/>
                     </animation>
                     <posx>1560</posx>
-                    <posy>407</posy>
+                    <posy>493</posy>
                     <width>300</width>
-                    <height>235</height>
-                    <aspectratio align="right" aligny="bottom">keep</aspectratio>
+                    <height>149</height>
+                    <aspectratio align="right" aligny="center">keep</aspectratio>
                     <texture background="true">$VAR[VideoPlayerClearLogo]</texture>
                 </control>
             </control>
@@ -1720,10 +1720,10 @@
                 <param name="x" value="1235"/>
                 <param name="y" value="490"/>
                 <param name="width" value="300"/>
-                <param name="height" value="140"/>
+                <param name="height" value="149"/>
                 <param name="visible" value="true"/>
                 <param name="align" value="left"/>
-                <param name="aligny" value="bottom"/>
+                <param name="aligny" value="center"/>
             </include>
             <control type="group">
                 <posy>642</posy>

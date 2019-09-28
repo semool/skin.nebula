@@ -78,7 +78,7 @@
                         <align>center</align>
                         <font>WindowTitleSubFont</font>
                         <include>TextColor_MainColor</include>
-                        <label>$INFO[Window(Home).Property(SkinHelper.skin_version)] by Tgx</label>
+                        <label>$INFO[Window(Home).Property(SkinHelper.skin_version)] by Tgx [Mod by semool]</label>
                     </control>
                 </control>
             </control>
