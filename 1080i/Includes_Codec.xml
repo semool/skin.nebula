@@ -907,6 +907,7 @@
             <texture>$VAR[Theme.Color]/badges/audio/$INFO[VideoPlayer.AudioCodec,,.png]</texture>
         </control>
         <control type="image">
+            <visible>!String.IsEmpty(VideoPlayer.mpaa)</visible>
             <description>MPAA Image</description>
             <width>100</width>
             <height>70</height>

@@ -1645,8 +1645,6 @@
                 <height>33</height>
                 <width>33</width>
                 <colordiffuse>90ffffff</colordiffuse>
-                <texturenofocus>white/topbar/topbar_exit_nofocus.png</texturenofocus>
-                <texturefocus>white/topbar/topbar_exit_focus.png</texturefocus>
                 <onleft>Dialog.Close(10142)</onleft>
                 <onright>Dialog.Close(10142)</onright>
                 <onup>Dialog.Close(10142)</onup>
@@ -1664,8 +1662,6 @@
                 <height>33</height>
                 <width>33</width>
                 <colordiffuse>90ffffff</colordiffuse>
-                <texturenofocus>black/topbar/topbar_exit_nofocus.png</texturenofocus>
-                <texturefocus>black/topbar/topbar_exit_focus.png</texturefocus>
                 <onleft>Dialog.Close(10142)</onleft>
                 <onright>Dialog.Close(10142)</onright>
                 <onup>Dialog.Close(10142)</onup>
@@ -1682,6 +1678,14 @@
                 <height>700</height>
                 <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
                 <texture border="1,320,1,1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
+            </control>
+            <control type="image">
+                <posx>-200</posx>
+                <posy>609</posy>
+                <width>2320</width>
+                <height>471</height>
+                <include>DialogTransparencyOSD</include>
+                <texture border="150,40,150,40">$VAR[Theme.Color]/common/bg_dialog.png</texture>
             </control>
             <control type="group">
                 <!-- CLEAR ART / LOGO -->
