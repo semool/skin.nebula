@@ -1675,7 +1675,7 @@
                 <posx>0</posx>
                 <posy>450</posy>
                 <width>1920</width>
-                <height>700</height>
+                <height>595</height>
                 <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
                 <texture border="1,320,1,1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
             </control>
@@ -1685,6 +1685,7 @@
                 <width>2320</width>
                 <height>471</height>
                 <include>DialogTransparencyOSD</include>
+                <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
                 <texture border="150,40,150,40">$VAR[Theme.Color]/common/bg_dialog.png</texture>
             </control>
             <control type="group">
