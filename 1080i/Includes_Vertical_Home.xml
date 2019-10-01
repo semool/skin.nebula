@@ -159,7 +159,7 @@
                         <align>center</align>
                         <ondown>300</ondown>
                         <pagecontrol></pagecontrol>
-                        <!--<preloaditems>4</preloaditems>-->
+                        <preloaditems>4</preloaditems>
                         <orientation>vertical</orientation>
                         <itemlayout height="78" width="570">
                             <control type="label">
