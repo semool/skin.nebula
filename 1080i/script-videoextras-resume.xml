@@ -2,7 +2,7 @@
 <window type="buttonMenu">
     <defaultcontrol>9000</defaultcontrol>
     <controls>
-        <include>DimBG</include>
+        <!--<include>DimBG</include>-->
         <control type="group">
             <include>DialogOpenClose</include>
             <control type="group">
@@ -11,7 +11,7 @@
                     <posy>429</posy>
                     <width>2320</width>
                     <height>222</height>
-                    <include>DialogTransparency</include>
+                    <!--<include>DialogTransparency</include>-->
                     <texture border="150,40,150,40">$VAR[Theme.Color]/common/bg_dialog.png</texture>
                 </control>
                 <control type="grouplist" id="9000">
