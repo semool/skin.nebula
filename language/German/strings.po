@@ -371,6 +371,10 @@ msgctxt "#31088"
 msgid "Disable default startup logo"
 msgstr "Standard Start Logo deaktivieren"
 
+msgctxt "#31089"
+msgid "Show Animated Posters when available"
+msgstr "Zeige animierte Poster wenn vorhanden"
+
 msgctxt "#31090"
 msgid "Panel"
 msgstr "Panel"

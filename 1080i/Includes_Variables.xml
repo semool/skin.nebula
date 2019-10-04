@@ -69,6 +69,9 @@
         <!--NORMAL-->
         <value condition="ListItem.IsParentFolder">$VAR[ThumbsFolderBack]</value>
         <value condition="Container.Content(episodes) + !String.IsEmpty(ListItem.thumb) + !String.StartsWith(ListItem.thumb,Default)">$INFO[ListItem.thumb]</value>
+        <!-- Animated Posters -->
+        <value condition="Skin.HasSetting(skinhelper.enableanimatedposters) + !String.IsEmpty(ListItem.Art(animatedposter))+!String.StartsWith(ListItem.Art(animatedposter),Default)">$INFO[ListItem.Art(animatedposter)]</value>
+        <!---------------------->
         <value condition="!String.IsEmpty(ListItem.Art(poster))+!String.StartsWith(ListItem.Art(poster),Default)">$INFO[ListItem.Art(poster)]</value>
         <value condition="!String.IsEmpty(ListItem.Icon)+!String.StartsWith(ListItem.Icon,Default)">$INFO[ListItem.Icon]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Icon))+!String.StartsWith(ListItem.Property(Icon),Default)">$INFO[ListItem.Property(Icon)]</value>
@@ -81,6 +84,9 @@
         <value condition="[Window.IsVisible(DialogPVRChannelGuide.xml)|Window.IsVisible(DialogPVRChannelsOSD.xml)]">$INFO[ListItem.Icon]</value>
         <value condition="[Window.IsVisible(MyPVRRecordings.xml)|Window.IsVisible(MyPVRSearch.xml)|Window.IsVisible(MyPVRTimers.xml)]+!String.StartsWith(ListItem.Icon,Default)">$INFO[ListItem.Icon]</value>
         <value condition="Skin.hassetting(plexbmc) + Container.Content(episodes) + !String.IsEmpty(ListItem.thumb) + !String.StartsWith(ListItem.thumb,Default)">$INFO[ListItem.thumb]</value>
+        <!-- Animated Posters -->
+        <value condition="Skin.HasSetting(skinhelper.enableanimatedposters) + !String.IsEmpty(ListItem.Art(animatedposter))+!String.StartsWith(ListItem.Art(animatedposter),Default)">$INFO[ListItem.Art(animatedposter)]</value>
+        <!---------------------->
         <value condition="!String.IsEmpty(ListItem.Art(poster))+!String.StartsWith(ListItem.Art(poster),Default)">$INFO[ListItem.Art(poster)]</value>
         <value condition="!String.IsEmpty(ListItem.Icon)+!String.StartsWith(ListItem.Icon,Default)">$INFO[ListItem.Icon]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Icon))+!String.StartsWith(ListItem.Property(Icon),Default)">$INFO[ListItem.Property(Icon)]</value>

@@ -398,6 +398,18 @@
                             <label2>$LOCALIZE[106]</label2>
                             <onclick>Skin.ToggleSetting(EnableClearArt)</onclick>
                         </item>
+                        <item id="28">
+                            <visible>Skin.HasSetting(skinhelper.enableanimatedposters)</visible>
+                            <label>$LOCALIZE[31089]</label>
+                            <label2>$LOCALIZE[107]</label2>
+                            <onclick>Skin.ToggleSetting(skinhelper.enableanimatedposters)</onclick>
+                        </item>
+                        <item id="28">
+                            <visible>!Skin.HasSetting(skinhelper.enableanimatedposters)</visible>
+                            <label>$LOCALIZE[31089]</label>
+                            <label2>$LOCALIZE[106]</label2>
+                            <onclick>Skin.ToggleSetting(skinhelper.enableanimatedposters)</onclick>
+                        </item>
                         <item id="25">
                             <visible>Skin.HasSetting(EnableStudioArt)</visible>
                             <label>$LOCALIZE[31075]</label>
