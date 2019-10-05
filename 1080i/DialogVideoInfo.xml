@@ -66,7 +66,7 @@
                     <param name="pulse" value="false"/>
                 </include>
                 <control type="image">
-                    <visible>String.IsEmpty(Listitem.Thumb)</visible>
+                    <visible>String.IsEmpty(Listitem.Thumb)+String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>TextMargin</posx>
                     <posy>348</posy>
                     <width>424</width>
@@ -75,11 +75,22 @@
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
                 <control type="image">
+                    <visible>String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>25</posx>
                     <posy>313</posy>
                     <width>494</width>
                     <height>685</height>
                     <texture background="true">$INFO[Listitem.Thumb]</texture>
+                    <include>ThumbBorder</include>
+                    <aspectratio aligny="top">keep</aspectratio>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <posx>25</posx>
+                    <posy>313</posy>
+                    <width>494</width>
+                    <height>685</height>
+                    <texture background="true">$INFO[ListItem.Art(animatedposter)]</texture>
                     <include>ThumbBorder</include>
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
@@ -818,7 +829,7 @@
                     <param name="pulse" value="false"/>
                 </include>
                 <control type="image">
-                    <visible>String.IsEmpty(Listitem.Thumb)</visible>
+                    <visible>String.IsEmpty(Listitem.Thumb)+String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>TextMargin</posx>
                     <posy>348</posy>
                     <width>424</width>
@@ -827,11 +838,22 @@
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
                 <control type="image">
+                    <visible>String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>25</posx>
                     <posy>313</posy>
                     <width>494</width>
                     <height>685</height>
                     <texture background="true">$INFO[Listitem.Thumb]</texture>
+                    <include>ThumbBorder</include>
+                    <aspectratio aligny="top">keep</aspectratio>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <posx>25</posx>
+                    <posy>313</posy>
+                    <width>494</width>
+                    <height>685</height>
+                    <texture background="true">$INFO[ListItem.Art(animatedposter)]</texture>
                     <include>ThumbBorder</include>
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
