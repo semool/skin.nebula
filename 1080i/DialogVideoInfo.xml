@@ -66,7 +66,7 @@
                     <param name="pulse" value="false"/>
                 </include>
                 <control type="image">
-                    <visible>String.IsEmpty(Listitem.Thumb)+String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <visible>String.IsEmpty(Listitem.Thumb) + String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>TextMargin</posx>
                     <posy>348</posy>
                     <width>424</width>
@@ -75,7 +75,7 @@
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
                 <control type="image">
-                    <visible>String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <visible>!Skin.HasSetting(skinhelper.enableanimatedposters) | String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>25</posx>
                     <posy>313</posy>
                     <width>494</width>
@@ -85,7 +85,7 @@
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
                 <control type="image">
-                    <visible>!String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <visible>Skin.HasSetting(skinhelper.enableanimatedposters) + !String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>25</posx>
                     <posy>313</posy>
                     <width>494</width>
@@ -829,7 +829,7 @@
                     <param name="pulse" value="false"/>
                 </include>
                 <control type="image">
-                    <visible>String.IsEmpty(Listitem.Thumb)+String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <visible>String.IsEmpty(Listitem.Thumb) + String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>TextMargin</posx>
                     <posy>348</posy>
                     <width>424</width>
@@ -838,7 +838,7 @@
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
                 <control type="image">
-                    <visible>String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <visible>!Skin.HasSetting(skinhelper.enableanimatedposters) | String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>25</posx>
                     <posy>313</posy>
                     <width>494</width>
@@ -848,7 +848,7 @@
                     <aspectratio aligny="top">keep</aspectratio>
                 </control>
                 <control type="image">
-                    <visible>!String.IsEmpty(ListItem.Art(animatedposter))</visible>
+                    <visible>Skin.HasSetting(skinhelper.enableanimatedposters) + !String.IsEmpty(ListItem.Art(animatedposter))</visible>
                     <posx>25</posx>
                     <posy>313</posy>
                     <width>494</width>
