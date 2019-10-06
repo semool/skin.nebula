@@ -1636,7 +1636,7 @@
     <include name="OSDInfoPanel">
         <control type="group">
             <include>OpenClose</include>
-            <posy>0</posy>
+            <posy>35</posy>
             <control type="button" id="9001">
                 <visible>![Player.ShowInfo + VideoPlayer.Content(LiveTV) + Window.IsActive(fullscreenvideo)]</visible>
                 <include>ConditionWhite</include>
