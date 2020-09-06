@@ -184,6 +184,7 @@
             <posy>0</posy>
             <width>2320</width>
             <height>183</height>
+            <include>DialogTransparencyOSD</include>
             <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
             <texture border="150,40,150,40">$VAR[Theme.Color]/common/bg_dialog.png</texture>
         </control>
@@ -659,6 +660,7 @@
                         <posy>0</posy>
                         <width>2320</width>
                         <height>183</height>
+                        <include>DialogTransparencyOSD</include>
                         <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
                         <texture border="150,40,150,40">$VAR[Theme.Color]/common/bg_dialog.png</texture>
                     </control>
