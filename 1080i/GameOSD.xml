@@ -20,9 +20,9 @@
                 <posx>0</posx>
                 <posy>0</posy>
                 <width>1920</width>
-                <height>550</height>
+                <height>50</height>
                 <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
-                <texture flipy="true" border="1,320,1,1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
+                <texture flipy="true" border="1,50,1,1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
             </control>
             <control type="image">
                 <posx>-200</posx>

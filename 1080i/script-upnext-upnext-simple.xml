@@ -19,14 +19,14 @@
         <posy>0</posy>
         <height>200</height>
         <!-- Background -->
-        <control type="image">
+        <!--<control type="image">
           <posx>0</posx>
           <posy>0</posy>
           <width>1920</width>
           <height>200</height>
           <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
           <texture flipy="true" border="1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
-        </control>
+        </control>-->
         <control type="image">
           <posx>-200</posx>
           <posy>-5</posy>

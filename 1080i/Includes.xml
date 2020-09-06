@@ -165,7 +165,7 @@
         <font></font>
     </include>
     <include name="TopBar">
-        <control type="image">
+        <!--<control type="image">
             <visible>!control.IsVisible(495678)</visible>
             <visible>!control.IsVisible(53)</visible>
             <include>TopBarVisibleFadeEffect</include>
@@ -175,7 +175,7 @@
             <height>350</height>
             <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
             <texture flipy="true" border="1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
-        </control>
+        </control>-->
         <control type="image">
             <visible>!control.IsVisible(495678)</visible>
             <visible>!control.IsVisible(53)</visible>
@@ -1671,14 +1671,14 @@
                 <label></label>
                 <onfocus>noop</onfocus>
             </control>
-            <control type="image">
+            <!--<control type="image">
                 <posx>0</posx>
                 <posy>450</posy>
                 <width>1920</width>
                 <height>595</height>
                 <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
                 <texture border="1,320,1,1">$VAR[Theme.Color]/common/widget_gradient_tall.png</texture>
-            </control>
+            </control>-->
             <control type="image">
                 <posx>-200</posx>
                 <posy>609</posy>
