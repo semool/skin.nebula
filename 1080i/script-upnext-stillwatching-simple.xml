@@ -32,6 +32,7 @@
           <posy>-5</posy>
           <width>2320</width>
           <height>110</height>
+          <include>DialogTransparencyOSD</include>
           <colordiffuse>$VAR[Picked.Theme.Color]</colordiffuse>
           <texture>$VAR[Theme.Color]/common/bg_dialog.png</texture>
         </control>
