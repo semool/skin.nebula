@@ -321,7 +321,7 @@
                     <usealttexture>Playlist.IsRandom</usealttexture>
                     <alttexturefocus>black/topbar/topbar_random_on_focus.png</alttexturefocus>
                     <alttexturenofocus>black/topbar/topbar_random_on_nofocus.png</alttexturenofocus>
-                    <onclick>XBMC.PlayerControl(Random)</onclick>
+                    <onclick>PlayerControl(Random)</onclick>
                 </control>
                 <control type="button" id="9">
                     <label>$LOCALIZE[24013]</label>
@@ -330,7 +330,7 @@
                     <texturenofocus>black/topbar/topbar_teletext_nofocus.png</texturenofocus>
                     <onclick>Close</onclick>
                     <onclick condition="String.IsEmpty(Skin.String(LyricPath))">Skin.SetAddon(LyricPath,xbmc.python.lyrics)</onclick>
-                    <onclick condition="!String.IsEmpty(Skin.String(LyricPath))">XBMC.RunScript($INFO[Skin.String(LyricPath)])</onclick>
+                    <onclick condition="!String.IsEmpty(Skin.String(LyricPath))">RunScript($INFO[Skin.String(LyricPath)])</onclick>
                 </control>
                 <control type="button" id="555">
                     <label>$LOCALIZE[559]</label>
@@ -616,7 +616,7 @@
                     <usealttexture>Playlist.IsRandom</usealttexture>
                     <alttexturefocus>white/topbar/topbar_random_on_focus.png</alttexturefocus>
                     <alttexturenofocus>white/topbar/topbar_random_on_nofocus.png</alttexturenofocus>
-                    <onclick>XBMC.PlayerControl(Random)</onclick>
+                    <onclick>PlayerControl(Random)</onclick>
                 </control>
                 <control type="button" id="9">
                     <label>$LOCALIZE[24013]</label>
@@ -625,7 +625,7 @@
                     <texturenofocus>white/topbar/topbar_teletext_nofocus.png</texturenofocus>
                     <onclick>Close</onclick>
                     <onclick condition="String.IsEmpty(Skin.String(LyricPath))">Skin.SetAddon(LyricPath,xbmc.python.lyrics)</onclick>
-                    <onclick condition="!String.IsEmpty(Skin.String(LyricPath))">XBMC.RunScript($INFO[Skin.String(LyricPath)])</onclick>
+                    <onclick condition="!String.IsEmpty(Skin.String(LyricPath))">RunScript($INFO[Skin.String(LyricPath)])</onclick>
                 </control>
                 <control type="button" id="555">
                     <label>$LOCALIZE[559]</label>

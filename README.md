@@ -1,4 +1,4 @@
-## Nebula skin for Kodi 18 LEIA
+## Nebula skin for Kodi 19 Matrix
 Simple and full-featured skin designed for Full HD TV screens.
 
 ![](https://github.com/Tgxcorporation/skin.nebula/raw/master/screenshots/screenshot01.jpg)

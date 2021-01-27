@@ -178,7 +178,7 @@
                             <item id="11">
                                 <visible>!Skin.HasSetting(QuitMenu_Hide_Quit)</visible>
                                 <onclick>dialog.close(all,true)</onclick>
-                                <onclick>XBMC.Quit()</onclick>
+                                <onclick>Quit()</onclick>
                                 <label>$LOCALIZE[13009]</label>
                                 <thumb>$VAR[Theme.Color]/topbar/topbar_exit_nofocus.png</thumb>
                                 <icon>$VAR[Theme.Color]/topbar/topbar_exit_focus.png</icon>
@@ -187,7 +187,7 @@
                                 <visible>!Skin.HasSetting(QuitMenu_Hide_Sleep)</visible>
                                 <visible>System.CanSuspend</visible>
                                 <onclick>dialog.close(all,true)</onclick>
-                                <onclick>XBMC.Suspend()</onclick>
+                                <onclick>Suspend()</onclick>
                                 <label>$LOCALIZE[13011]</label>
                                 <thumb>$VAR[Theme.Color]/topbar/topbar_sleep_nofocus.png</thumb>
                                 <icon>$VAR[Theme.Color]/topbar/topbar_sleep_focus.png</icon>
@@ -196,7 +196,7 @@
                                 <visible>!Skin.HasSetting(QuitMenu_Hide_Shutdown)</visible>
                                 <visible>System.CanPowerDown</visible>
                                 <onclick>dialog.close(all,true)</onclick>
-                                <onclick>XBMC.Powerdown()</onclick>
+                                <onclick>Powerdown()</onclick>
                                 <label>$LOCALIZE[13005]</label>
                                 <thumb>$VAR[Theme.Color]/topbar/topbar_shutdown_nofocus.png</thumb>
                                 <icon>$VAR[Theme.Color]/topbar/topbar_shutdown_focus.png</icon>
@@ -205,7 +205,7 @@
                                 <visible>!Skin.HasSetting(QuitMenu_Hide_Reboot)</visible>
                                 <visible>System.CanReboot</visible>
                                 <onclick>dialog.close(all,true)</onclick>
-                                <onclick>XBMC.Reset()</onclick>
+                                <onclick>Reset()</onclick>
                                 <label>$LOCALIZE[13013]</label>
                                 <thumb>$VAR[Theme.Color]/topbar/topbar_restart_nofocus.png</thumb>
                                 <icon>$VAR[Theme.Color]/topbar/topbar_restart_focus.png</icon>
@@ -245,7 +245,7 @@
                                 <visible>Skin.HasSetting(QuitMenu_Hide_Timer)</visible>
                                 <visible>System.CanPowerDown | System.CanSuspend | System.CanHibernate</visible>
                                 <onclick>dialog.close(all,true)</onclick>
-                                <onclick>XBMC.AlarmClock(shutdowntimer,XBMC.Shutdown())</onclick>
+                                <onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
                                 <label>$LOCALIZE[20144]</label>
                                 <thumb>$VAR[Theme.Color]/topbar/topbar_epg_nofocus.png</thumb>
                                 <icon>$VAR[Theme.Color]/topbar/topbar_epg_focus.png</icon>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window type="dialog">
     <zorder>0</zorder>
-    <onload condition="System.HasAddon(script.videoextras)">XBMC.RunScript(script.videoextras,check,"$INFO[ListItem.FilenameAndPath]")</onload>
+    <onload condition="System.HasAddon(script.videoextras)">RunScript(script.videoextras,check,"$INFO[ListItem.FilenameAndPath]")</onload>
     <defaultcontrol always="true">2</defaultcontrol>
     <menucontrol>9000</menucontrol>
     <controls>
@@ -1092,7 +1092,7 @@
                     <label>$LOCALIZE[31005]</label>
                     <onclick>Dialog.Close(all,true)</onclick>
                     <onclick>Playlist.Clear</onclick>
-                    <onclick>XBMC.RunScript(script.cinema.experience,movieid=$INFO[ListItem.DBID])</onclick>
+                    <onclick>RunScript(script.cinema.experience,movieid=$INFO[ListItem.DBID])</onclick>
                     <onright>9009</onright>
                 </control>
                 <control type="button" id="298">
@@ -1173,9 +1173,9 @@
                     <description>Artwork Downloader</description>
                     <include>LeftMenuButton</include>
                     <label>Artwork Downloader</label>
-                    <onclick condition="String.IsEqual(ListItem.DBType,movie)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
-                    <onclick condition="String.IsEqual(ListItem.DBType,tvshow)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-                    <onclick condition="String.IsEqual(ListItem.DBType,musicvideo)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=musicvideos, dbid=$INFO[ListItem.DBID])</onclick>
+                    <onclick condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+                    <onclick condition="String.IsEqual(ListItem.DBType,tvshow)">RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+                    <onclick condition="String.IsEqual(ListItem.DBType,musicvideo)">RunScript(script.artwork.downloader, mode=gui, mediatype=musicvideos, dbid=$INFO[ListItem.DBID])</onclick>
                     <onright>9009</onright>
                 </control>
                 <control type="button" id="105">
@@ -1183,7 +1183,7 @@
                     <description>Videos Extras</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[31509]</label>
-                    <onclick>XBMC.RunScript(script.videoextras,display,"$INFO[ListItem.FilenameAndPath]")</onclick>
+                    <onclick>RunScript(script.videoextras,display,"$INFO[ListItem.FilenameAndPath]")</onclick>
                     <onright>9009</onright>
                 </control>
                 <control type="togglebutton" id="100">
@@ -1191,7 +1191,7 @@
                     <description>Tv Tunes</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[31956]</label>
-                    <onclick>XBMC.RunScript(script.tvtunes,mode=solo)</onclick>
+                    <onclick>RunScript(script.tvtunes,mode=solo)</onclick>
                     <onright>9009</onright>
                 </control>
             </control>

@@ -417,7 +417,7 @@
                             <visible>!Skin.HasSetting(Addons.Hide)</visible>
                             <label>$LOCALIZE[1039]</label>
                             <label2>$INFO[Window(Home).Property(SkinHelper.TotalPicturesAddons),, $LOCALIZE[24001]]</label2>
-                            <onclick>XBMC.ActivateWindow(Pictures,Addons,return)</onclick>
+                            <onclick>ActivateWindow(Pictures,Addons,return)</onclick>
                         </item>
                         <item id="51">
                             <visible>Skin.HasSetting(plexbmc)</visible>

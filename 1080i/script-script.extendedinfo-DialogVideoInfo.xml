@@ -2716,7 +2716,7 @@
                     <description>Videos Extras</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[31509]</label>
-                    <onclick>XBMC.RunScript(script.videoextras,display,"$INFO[Window.Property(FilenameAndPath)]")</onclick>
+                    <onclick>RunScript(script.videoextras,display,"$INFO[Window.Property(FilenameAndPath)]")</onclick>
                     <onright>9009</onright>
                 </control>
                 <control type="button" id="2001">
