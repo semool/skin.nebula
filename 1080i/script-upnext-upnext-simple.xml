@@ -49,7 +49,7 @@
             <aligny>center</aligny>
             <font>font12</font>
             <include>TextColor_MainColor</include>
-            <label>$ADDON[service.upnext 30037] $INFO[Player.TimeRemaining(ss),,] $ADDON[service.upnext 30035]</label>
+            <label>$ADDON[service.upnext 30037]</label>
           </control>
           <!-- Buttons -->
           <control type="grouplist">
