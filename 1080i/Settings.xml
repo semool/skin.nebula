@@ -127,12 +127,12 @@
                     <item>
                         <label>$LOCALIZE[14206]</label>
                         <onclick>ActivateWindow(InterfaceSettings)</onclick>
-                        <label2>$VAR[Favourites.Art]</label2>
+                        <label2>$VAR[Default.Art]</label2>
                     </item>
                     <item>
                         <label>$LOCALIZE[166]</label>
                         <onclick>ActivateWindow(SkinSettings)</onclick>
-                        <label2>$VAR[Favourites.Art]</label2>
+                        <label2>$VAR[Default.Art]</label2>
                     </item>
                     <item>
                         <label>$LOCALIZE[14200]</label>
@@ -182,7 +182,7 @@
                     <item>
                         <label>$LOCALIZE[14210]</label>
                         <onclick>ActivateWindow(Profiles)</onclick>
-                        <label2>$VAR[Favourites.Art]</label2>
+                        <label2>$VAR[Default.Art]</label2>
                     </item>
                     <item>
                         <label>$LOCALIZE[24001]</label>
