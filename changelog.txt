@@ -1,6 +1,6 @@
-20.1.x
+19.x.x
 Kodi 19 Matrix Support
-many tiny changes
+https://github.com/semool/skin.nebula
 
 6.0.0
 Leia support.
