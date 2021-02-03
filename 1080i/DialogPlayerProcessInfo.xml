@@ -82,7 +82,18 @@
                     <height>56</height>
                     <align>left</align>
                     <aligny>top</aligny>
+                    <visible>System.SupportsCPUUsage</visible>
           <label>$INFO[System.Memory(used.percent),$LOCALIZE[31085]: ,       ]$INFO[System.CpuUsage,$LOCALIZE[13271] ]</label>
+        </control>
+        <control type="label">
+                    <posx>40</posx>
+                    <posy>260</posy>
+                    <width>1840</width>
+                    <height>56</height>
+                    <align>left</align>
+                    <aligny>top</aligny>
+                    <visible>!System.SupportsCPUUsage</visible>
+          <label>$INFO[System.Memory(used.percent),$LOCALIZE[31085]: ]</label>
         </control>
       </control>
       <control type="group">
