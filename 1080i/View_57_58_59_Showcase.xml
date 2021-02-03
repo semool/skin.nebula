@@ -193,7 +193,8 @@
                 <onup>9000</onup>
                 <ondown>6069</ondown>
                 <viewtype label="31018">Cover Wrap</viewtype>
-                <pagecontrol>609</pagecontrol>
+                <include condition="!Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol609</include>
+                <include condition="Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol60</include>
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
@@ -226,10 +227,19 @@
                 </focusedlayout>
             </control>
             <control type="scrollbar" id="609">
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>
                 <include>HorizontalScroller</include>
+                <onup>59</onup>
+                <ondown>505050</ondown>
+            </control>
+            <control type="panel" id="609">
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
+                <posx>0</posx>
+                <posy>1024</posy>
+                <include>HorizontalAlphabetScroller</include>
                 <onup>59</onup>
                 <ondown>505050</ondown>
             </control>
@@ -457,7 +467,8 @@
                 <onup>9000</onup>
                 <ondown>6068</ondown>
                 <viewtype label="31018">Cover Wrap</viewtype>
-                <pagecontrol>608</pagecontrol>
+                <include condition="!Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol608</include>
+                <include condition="Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol60</include>
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
@@ -490,10 +501,19 @@
                 </focusedlayout>
             </control>
             <control type="scrollbar" id="608">
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>
                 <include>HorizontalScroller</include>
+                <onup>58</onup>
+                <ondown>505050</ondown>
+            </control>
+            <control type="panel" id="608">
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
+                <posx>0</posx>
+                <posy>1024</posy>
+                <include>HorizontalAlphabetScroller</include>
                 <onup>58</onup>
                 <ondown>505050</ondown>
             </control>
@@ -694,7 +714,8 @@
                 <onup>9000</onup>
                 <ondown>6067</ondown>
                 <viewtype label="31018">Cover Wrap</viewtype>
-                <pagecontrol>607</pagecontrol>
+                <include condition="!Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol607</include>
+                <include condition="Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol60</include>
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
@@ -728,10 +749,19 @@
                 </focusedlayout>
             </control>
             <control type="scrollbar" id="607">
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>
                 <include>HorizontalScroller</include>
+                <onup>57</onup>
+                <ondown>505050</ondown>
+            </control>
+            <control type="panel" id="607">
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
+                <posx>0</posx>
+                <posy>1024</posy>
+                <include>HorizontalAlphabetScroller</include>
                 <onup>57</onup>
                 <ondown>505050</ondown>
             </control>
