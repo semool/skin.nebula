@@ -292,7 +292,8 @@
                     <posy>183</posy>
                     <width>1920</width>
                     <height>810</height>
-                    <pagecontrol>60</pagecontrol>
+                    <include condition="!Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol60</include>
+                    <include condition="Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol609</include>
                     <onleft>9000</onleft>
                     <onright>60</onright>
                     <onup>50</onup>
