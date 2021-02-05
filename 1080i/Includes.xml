@@ -1199,7 +1199,8 @@
                 <include>TextColor_MainColor</include>
             </control>
         </focusedlayout>
-        <content>plugin://script.skin.helper.service/?action=alphabet&amp;reload=$INFO[Container.NumItems]</content>
+        <!--<content>plugin://script.skin.helper.service/?action=alphabet&amp;reload=$INFO[Container.NumItems]</content>-->
+        <content>plugin://script.embuary.helper/?info=jumptoletter&amp;showall=true&amp;reload=$INFO[Container.NumItems]</content>
     </include>
     <include name="HorizontalAlphabetScroller">
         <visible>[[Container.HasNext | Container.HasPrevious] + [[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)] + [String.IsEqual(Container.SortMethod,$LOCALIZE[551]) | String.IsEqual(Container.SortMethod,$LOCALIZE[561]) | String.IsEqual(Container.SortMethod,$LOCALIZE[558]) | String.IsEqual(Container.SortMethod,$LOCALIZE[557]) | String.IsEqual(Container.SortMethod,$LOCALIZE[556])]]]</visible>
@@ -1240,7 +1241,8 @@
                 <include>TextColor_MainColor</include>
             </control>
         </focusedlayout>
-        <content>plugin://script.skin.helper.service/?action=alphabet&amp;reload=$INFO[Container.NumItems]</content>
+        <!--<content>plugin://script.skin.helper.service/?action=alphabet&amp;reload=$INFO[Container.NumItems]</content>-->
+        <content>plugin://script.embuary.helper/?info=jumptoletter&amp;showall=true&amp;reload=$INFO[Container.NumItems]</content>
     </include>
     <include name="pagecontrol60">
         <pagecontrol>60</pagecontrol>
