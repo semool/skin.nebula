@@ -208,7 +208,7 @@
                 <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
-                <include>VerticalAlphabetScroller</include>
+                <include condition="Window.IsActive(myvideonav.xml)">VerticalAlphabetScroller</include>
                 <onleft>56</onleft>
                 <onright>505050</onright>
             </control>

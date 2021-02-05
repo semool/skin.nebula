@@ -315,7 +315,7 @@
                 <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
-                <include>VerticalAlphabetScroller</include>
+                <include condition="Window.IsActive(myvideonav.xml)">VerticalAlphabetScroller</include>
                 <onleft>50</onleft>
                 <onright>505050</onright>
             </control>
@@ -368,19 +368,10 @@
                 </control>
             </control>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <height>810</height>
                 <include>VerticalScroller</include>
-                <onleft>51</onleft>
-                <onright>60</onright>
-            </control>
-            <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
-                <posx>1886</posx>
-                <posy>183</posy>
-                <include>VerticalAlphabetScroller</include>
                 <onleft>51</onleft>
                 <onright>60</onright>
             </control>
@@ -468,19 +459,10 @@
                 </control>
             </control>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <height>810</height>
                 <include>VerticalScroller</include>
-                <onleft>50</onleft>
-                <onright>505050</onright>
-            </control>
-            <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
-                <posx>1886</posx>
-                <posy>183</posy>
-                <include>VerticalAlphabetScroller</include>
                 <onleft>50</onleft>
                 <onright>505050</onright>
             </control>
