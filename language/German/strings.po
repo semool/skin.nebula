@@ -1066,5 +1066,5 @@ msgid "Slide to left animations of list views"
 msgstr "Nach links Verschiebeanimationen in der Listenansicht"
 
 msgctxt "#32000"
-msgid "Use alphabet scroll for large lists"
-msgstr "Verwenden Sie die Alphabet-Schriftrolle für große Listen"
+msgid "Use alphabet scroll for Movies/Series"
+msgstr "Alphabet Schriftrolle für Filme/Serien verwenden"
