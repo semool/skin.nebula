@@ -227,7 +227,7 @@
                 </focusedlayout>
             </control>
             <control type="scrollbar" id="609">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar59)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar59)|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>

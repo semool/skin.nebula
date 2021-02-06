@@ -224,7 +224,7 @@
             </control>
             <include>ScrollOffsetLabel_50</include>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar54)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar54)|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>
