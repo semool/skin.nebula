@@ -1085,5 +1085,33 @@ msgid "Slide to left animations of list views"
 msgstr ""
 
 msgctxt "#32000"
-msgid "Use alphabet scroll for Movies/Series"
+msgid "Big List: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Slim List: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Short List: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Banner List: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Panel List: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Show Case: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Fanart: Use alphabet scroll for Movies/Series"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Cardlist: Use alphabet scroll for Movies/Series"
 msgstr ""

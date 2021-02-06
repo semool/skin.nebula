@@ -442,7 +442,7 @@
                 </control>
             </control>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar5050)|![Container.content(movies)|Container.Content(TVShows)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>
@@ -451,11 +451,10 @@
                 <ondown>505050</ondown>
             </control>
             <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar)</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar5050)</visible>
                 <posx>0</posx>
                 <posy>1024</posy>
-                <include condition="Window.IsActive(myvideonav.xml) + Control.IsVisible(5050)">HorizontalAlphabetScroller</include>
-                <!--<include condition="Window.IsActive(myvideonav.xml)">HorizontalAlphabetScroller</include>-->
+                <include condition="Window.IsActive(myvideonav.xml) + Skin.HasSetting(AlphabetJumpScrollBar5050)">HorizontalAlphabetScroller</include>
                 <onup>5050</onup>
                 <ondown>505050</ondown>
             </control>

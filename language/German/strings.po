@@ -1066,5 +1066,33 @@ msgid "Slide to left animations of list views"
 msgstr "Nach links Verschiebeanimationen in der Listenansicht"
 
 msgctxt "#32000"
-msgid "Use alphabet scroll for Movies/Series"
-msgstr "Alphabet Schriftrolle für Filme/Serien verwenden"
+msgid "Big List: Use alphabet scroll for Movies/Series"
+msgstr "Große Liste: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32001"
+msgid "Slim List: Use alphabet scroll for Movies/Series"
+msgstr "Schlanke Liste: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32002"
+msgid "Short List: Use alphabet scroll for Movies/Series"
+msgstr "Liste: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32003"
+msgid "Banner List: Use alphabet scroll for Movies/Series"
+msgstr "Banner Liste: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32004"
+msgid "Panel List: Use alphabet scroll for Movies/Series"
+msgstr "Leiste: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32005"
+msgid "Show Case: Use alphabet scroll for Movies/Series"
+msgstr "Cover Hülle: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32006"
+msgid "Fanart: Use alphabet scroll for Movies/Series"
+msgstr "Fanart: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32007"
+msgid "Cardlist: Use alphabet scroll for Movies/Series"
+msgstr "Kartenliste: Alphabet Sprungleiste für Filme/Serien verwenden"
