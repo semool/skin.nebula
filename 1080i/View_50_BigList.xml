@@ -298,7 +298,7 @@
                     <onright>60</onright>
                     <onup>50</onup>
                     <ondown>50</ondown>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <include>BigList_Layout</include>
                 </control>
             </control>
@@ -312,10 +312,11 @@
                 <onright>505050</onright>
             </control>
             <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar)</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <include condition="Window.IsActive(myvideonav.xml) + Control.IsVisible(50)">VerticalAlphabetScroller</include>
+                <!--<include condition="Window.IsActive(myvideonav.xml)">VerticalAlphabetScroller</include>-->
                 <onleft>50</onleft>
                 <onright>505050</onright>
             </control>
@@ -363,7 +364,7 @@
                     <onright>60</onright>
                     <onup>51</onup>
                     <ondown>51</ondown>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <include>BigList_Layout</include>
                 </control>
             </control>
@@ -401,7 +402,7 @@
                     <onright>60</onright>
                     <onup>50</onup>
                     <ondown>50</ondown>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <include>BigList_Layout</include>
                     <content>
                         <item id="2">
@@ -661,7 +662,7 @@
                 <onright>60</onright>
                 <onup>50</onup>
                 <ondown>50</ondown>
-                <preloaditems>4</preloaditems>
+                <preloaditems>2</preloaditems>
                 <include>BigList_Layout_Weather</include>
                 <include>WeatherContent</include>
             </control>

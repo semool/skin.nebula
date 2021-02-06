@@ -1247,12 +1247,6 @@
     <include name="pagecontrol60">
         <pagecontrol>60</pagecontrol>
     </include>
-    <include name="pagecontrol607">
-        <pagecontrol>607</pagecontrol>
-    </include>
-    <include name="pagecontrol608">
-        <pagecontrol>608</pagecontrol>
-    </include>
     <include name="pagecontrol609">
         <pagecontrol>609</pagecontrol>
     </include>

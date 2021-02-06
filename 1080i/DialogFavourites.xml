@@ -27,7 +27,7 @@
                     <onright>450</onright>
                     <onup>450</onup>
                     <ondown>450</ondown>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <pagecontrol>60</pagecontrol>
                     <include>BigList_Layout</include>
                 </control>

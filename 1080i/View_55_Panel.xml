@@ -521,7 +521,7 @@
                     <onright>60</onright>
                     <onup>9000</onup>
                     <ondown>55</ondown>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <include>Panel_Layout</include>
                 </control>
             </control>
@@ -535,10 +535,11 @@
                 <onright>60</onright>
             </control>
             <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar)</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <include condition="Window.IsActive(myvideonav.xml) + Control.IsVisible(55)">VerticalAlphabetScroller</include>
+                <!--<include condition="Window.IsActive(myvideonav.xml)">VerticalAlphabetScroller</include>-->
                 <onleft>50</onleft>
                 <onright>60</onright>
             </control>

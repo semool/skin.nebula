@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window type="dialog">
     <onload condition="String.Contains(Player.Filenameandpath,theme.mp3)">Dialog.Close(all,true)</onload>
-    <onload condition="String.Contains(Player.Filenameandpath,stream.mp3)">Dialog.Close(all,true)</onload>
     <controls>
         <control type="group">
             <include>DialogOpenClose</include>

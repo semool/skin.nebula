@@ -93,7 +93,7 @@
                         <orientation>horizontal</orientation>
                         <focusposition>0</focusposition>
                         <movement>1</movement>
-                        <preloaditems>4</preloaditems>
+                        <preloaditems>2</preloaditems>
                         <itemlayout height="1080" width="1920">
                             <!--<include>ListFocusAnimation</include>-->
                             <control type="image">

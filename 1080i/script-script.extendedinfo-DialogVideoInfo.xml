@@ -2091,7 +2091,7 @@
                     <orientation>horizontal</orientation>
                     <focusposition>0</focusposition>
                     <movement>0</movement>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <itemlayout height="425" width="275">
                         <control type="image">
                             <include>ConditionWhite</include>
@@ -2191,7 +2191,7 @@
                     <orientation>horizontal</orientation>
                     <focusposition>0</focusposition>
                     <movement>0</movement>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <itemlayout height="425" width="350">
                         <control type="image">
                             <include>ConditionWhite</include>

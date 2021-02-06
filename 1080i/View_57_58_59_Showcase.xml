@@ -198,7 +198,7 @@
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
-                <preloaditems>4</preloaditems>
+                <preloaditems>2</preloaditems>
                 <itemlayout height="425" width="265">
                     <control type="image">
                         <visible>!ListItem.IsParentFolder</visible>
@@ -236,10 +236,10 @@
                 <ondown>505050</ondown>
             </control>
             <control type="panel" id="609">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar) + [Container.content(movies)|Container.Content(TVShows)]</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar)</visible>
                 <posx>0</posx>
                 <posy>1024</posy>
-                <!--<include condition="Window.IsActive(myvideonav.xml) + Control.IsVisible(59)">HorizontalAlphabetScroller</include>-->
+                <!--<include condition="[Window.IsActive(myvideonav.xml) + Control.HasFocus(59)]">HorizontalAlphabetScroller</include>-->
                 <include condition="Window.IsActive(myvideonav.xml)">HorizontalAlphabetScroller</include>
                 <onup>59</onup>
                 <ondown>505050</ondown>
@@ -468,12 +468,11 @@
                 <onup>9000</onup>
                 <ondown>6068</ondown>
                 <viewtype label="31018">Cover Wrap</viewtype>
-                <include condition="!Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol608</include>
-                <include condition="Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol60</include>
+                <pagecontrol>608</pagecontrol>
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
-                <preloaditems>4</preloaditems>
+                <preloaditems>2</preloaditems>
                 <itemlayout height="425" width="265">
                     <control type="image">
                         <posx>-25</posx>
@@ -706,12 +705,11 @@
                 <onup>9000</onup>
                 <ondown>6067</ondown>
                 <viewtype label="31018">Cover Wrap</viewtype>
-                <include condition="!Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol607</include>
-                <include condition="Skin.HasSetting(AlphabetJumpScrollBar)">pagecontrol60</include>
+                <pagecontrol>607</pagecontrol>
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
-                <preloaditems>4</preloaditems>
+                <preloaditems>2</preloaditems>
                 <itemlayout height="425" width="450">
                     <control type="image">
                         <visible>!ListItem.IsParentFolder</visible>
@@ -934,7 +932,7 @@
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>
-                <preloaditems>4</preloaditems>
+                <preloaditems>2</preloaditems>
                 <itemlayout height="425" width="450">
                     <control type="image">
                         <posx>-25</posx>

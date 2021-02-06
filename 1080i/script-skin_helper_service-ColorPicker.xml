@@ -50,7 +50,7 @@
                 <onright>60</onright>
                 <onup>3110</onup>
                 <ondown>9001</ondown>
-                <preloaditems>4</preloaditems>
+                <preloaditems>2</preloaditems>
                 <pagecontrol>60</pagecontrol>
                 <itemlayout height="70" width="69">
                     <control type="image">

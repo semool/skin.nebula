@@ -58,7 +58,7 @@
                     <onright>60</onright>
                     <onup>700</onup>
                     <ondown>600</ondown>
-                    <preloaditems>4</preloaditems>
+                    <preloaditems>2</preloaditems>
                     <include>BigList_Layout</include>
                 </control>
                 <control type="button" id="600">
