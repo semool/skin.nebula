@@ -1096,3 +1096,7 @@ msgstr "Fanart: Alphabet Sprungleiste für Filme/Serien verwenden"
 msgctxt "#32007"
 msgid "Cardlist: Use alphabet scroll for Movies/Series"
 msgstr "Kartenliste: Alphabet Sprungleiste für Filme/Serien verwenden"
+
+msgctxt "#32008"
+msgid "DANGER! For performance reasons, the alphabet jump bar should only be activated for the view in use!"
+msgstr "ACHTUNG! Aus Performance Gründen sollte die Alphabet Spungleiste nur für die genutze Ansicht aktiviert werden!"

@@ -1115,3 +1115,7 @@ msgstr ""
 msgctxt "#32007"
 msgid "Cardlist: Use alphabet scroll for Movies/Series"
 msgstr ""
+
+msgctxt "#32008"
+msgid "DANGER! For performance reasons, the alphabet jump bar should only be activated for the view in use!"
+msgstr ""

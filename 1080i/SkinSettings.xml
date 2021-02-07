@@ -93,6 +93,11 @@
                             <label2>$LOCALIZE[106]</label2>
                             <onclick>Skin.ToggleSetting(ScrollOffsetLabelEnabled)</onclick>
                         </item>
+                        <item id="1005">
+                            <label/>
+                            <label2>$LOCALIZE[32008]</label2>
+                            <onclick>noop</onclick>
+                        </item>
                         <item id="19">
                             <visible>Skin.HasSetting(AlphabetJumpScrollBar50)</visible>
                             <label>$LOCALIZE[32000]</label>
@@ -188,6 +193,11 @@
                             <label>$LOCALIZE[32007]</label>
                             <label2>$LOCALIZE[106]</label2>
                             <onclick>Skin.ToggleSetting(AlphabetJumpScrollBar5050)</onclick>
+                        </item>
+                        <item id="1005">
+                            <label/>
+                            <label2/>
+                            <onclick>noop</onclick>
                         </item>
                         <item id="27">
                             <visible>Skin.HasSetting(RssTicker)</visible>
