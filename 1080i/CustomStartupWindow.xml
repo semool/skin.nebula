@@ -714,7 +714,7 @@
                     </control>
                     <!--CUSTOM-->
                     <control type="radiobutton" id="716">
-                        <visible>String.IsEmpty(Skin.String(CustomStartup.Path))</visible>
+                        <visible>System.HasAddon(script.favourites) + String.IsEmpty(Skin.String(CustomStartup.Path))</visible>
                         <align>center</align>
                         <width>1920</width>
                         <radioposx>1806</radioposx>
@@ -728,7 +728,7 @@
                     </control>
                     <!--CUSTOM-->
                     <control type="radiobutton" id="717">
-                        <visible>!String.IsEmpty(Skin.String(CustomStartup.Path))</visible>
+                        <visible>System.HasAddon(script.favourites) + !String.IsEmpty(Skin.String(CustomStartup.Path))</visible>
                         <align>center</align>
                         <width>1920</width>
                         <radioposx>1806</radioposx>

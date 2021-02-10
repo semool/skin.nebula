@@ -139,10 +139,10 @@
                         <include>ButtonFocusAnimation</include>
                         <width>348</width>
                         <label>Extended Info</label>
-                        <visible>System.HasAddon(script.extendedinfo)</visible>
+                        <visible>System.HasAddon(script.embuary.info)</visible>
                         <onclick>Action(Close)</onclick>
                         <onclick>dialog.close(all,true)</onclick>
-                        <onclick>RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Title])</onclick>
+                        <onclick>RunScript(script.embuary.info,RunScript(script.embuary.info,call=movie,query='"$INFO[ListItem.Title]"')</onclick>
                     </control>
                     <control type="button" id="4">
                         <include>ButtonFocusAnimation</include>

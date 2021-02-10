@@ -37,7 +37,7 @@
         <value condition="[Window.IsVisible(MyPics.xml)]">$VAR[Theme.Color]/defaultPictureBig.png</value>
         <value condition="[Window.IsVisible(script-videoextras-main.xml)]">$VAR[Theme.Color]/defaultVideoBig.png</value>
         <value condition="[Container.content(studios)] + !String.IsEmpty(Skin.String(StudioArt.name))">$INFO[Skin.String(StudioArt.path)]/$INFO[ListItem.Label].png</value>
-        <value condition="[Container.content(studios)]">resource://resource.images.studios.white/$INFO[ListItem.Label].png</value>
+        <value condition="[Container.content(studios)]">resource://resource.images.studios.coloured/$INFO[ListItem.Label].png</value>
         <!--<value condition="[Container.content(Genres)]">resource://resource.images.moviegenreicons.white/$INFO[ListItem.Label].png</value>-->
         <value condition="[Container.content(Genres)]">$VAR[Theme.Color]/defaultGenreBig.png</value>
         <value condition="[Container.content(Playlists)]">$VAR[Theme.Color]/defaultPlaylistBig.png</value>
@@ -941,13 +941,13 @@
         <value condition="Skin.HasSetting(EnableStudioArt) + !String.IsEmpty(Skin.String(StudioArt.name))">$INFO[Skin.String(StudioArt.path)]/$INFO[ListItem.Studio].png</value>
         <value condition="Skin.HasSetting(EnableStudioArt) + [Window.IsVisible(MusicVisualisation.xml)]">resource://resource.images.recordlabels.white/$INFO[MusicPlayer.Property(Album_Label)].png</value>
         <value condition="Skin.HasSetting(EnableStudioArt) + [Window.IsVisible(MyMusicSongs.xml)|Window.IsVisible(MyMusicNav.xml)]">resource://resource.images.recordlabels.white/$INFO[ListItem.Property(Album_Label)].png</value>
-        <value condition="Skin.HasSetting(EnableStudioArt) + [Window.IsVisible(VideoFullScreen.xml)]">resource://resource.images.studios.white/$INFO[VideoPlayer.Studio].png</value>
-        <value condition="Skin.HasSetting(EnableStudioArt) + [Window.IsVisible(script-script.extendedinfo-VideoList.xml)]">resource://resource.images.studios.white/$INFO[Container(500).ListItem.Studio].png</value>
-        <value condition="Skin.HasSetting(EnableStudioArt)">resource://resource.images.studios.white/$INFO[ListItem.Studio].png</value>
+        <value condition="Skin.HasSetting(EnableStudioArt) + [Window.IsVisible(VideoFullScreen.xml)]">resource://resource.images.studios.coloured/$INFO[VideoPlayer.Studio].png</value>
+        <value condition="Skin.HasSetting(EnableStudioArt) + [Window.IsVisible(script-script.extendedinfo-VideoList.xml)]">resource://resource.images.studios.coloured/$INFO[Container(500).ListItem.Studio].png</value>
+        <value condition="Skin.HasSetting(EnableStudioArt)">resource://resource.images.studios.coloured/$INFO[ListItem.Studio].png</value>
     </variable>
     <variable name="ExtendedInfoStudioArt">
         <value condition="!String.IsEmpty(Skin.String(StudioArt.name))">$INFO[Skin.String(StudioArt.path)]/$INFO[Container(550).ListItem.Label,,.png]</value>
-        <value>resource://resource.images.studios.white/$INFO[Container(550).ListItem.Label,,.png]</value>
+        <value>resource://resource.images.studios.coloured/$INFO[Container(550).ListItem.Label,,.png]</value>
     </variable>
     <variable name="SkinShortcutsMoveUpLabel">
         <value condition="[Skin.HasSetting(VerticalHome)+String.IsEqual(Window.Property(groupname),mainmenu)]|!String.IsEqual(Window.Property(groupname),mainmenu)">$ADDON[script.skinshortcuts 32002]</value>

@@ -1150,6 +1150,7 @@
                     <onclick>Control.SetFocus(50)</onclick>
                 </control>
                 <control type="button" id="6">
+                    <visible>!System.HasAddon(plugin.video.emby-next-gen)</visible>
                     <description>Refresh</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[184]</label>
@@ -1161,13 +1162,13 @@
                     <label>$LOCALIZE[13511]</label>
                     <onright>9009</onright>
                 </control>
-                <control type="button" id="7">
+                <!--<control type="button" id="7">
                     <description>Set my rating</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[38023]</label>
                     <visible>Control.IsEnabled(7)</visible>
                     <onright>9009</onright>
-                </control>
+                </control>-->
                 <control type="togglebutton" id="9018">
                     <visible>System.HasAddon(script.artwork.downloader) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
                     <description>Artwork Downloader</description>
