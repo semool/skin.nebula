@@ -316,11 +316,6 @@
                     <include>LeftMenuButton</include>
                     <onright>6060</onright>
                 </control>
-                <control type="button" id="10">
-                    <label>$LOCALIZE[39024]</label>
-                    <include>LeftMenuButton</include>
-                    <onright>6060</onright>
-                </control>
                 <control type="radiobutton" id="13">
                     <visible>Control.IsEnabled(13)</visible>
                     <description>Auto-update button</description>
