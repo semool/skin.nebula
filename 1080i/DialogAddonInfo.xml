@@ -285,15 +285,10 @@
                     <include>LeftMenuButton</include>
                     <onright>6060</onright>
                 </control>
-                <control type="button" id="8">
-                    <label>$LOCALIZE[24069]</label>
-                    <include>LeftMenuButton</include>
-                    <onright>6060</onright>
-                </control>
                 <control type="button" id="100">
                     <label>$LOCALIZE[24036]</label>
                     <include>LeftMenuButton</include>
-                    <onright>8070</onright>
+                    <onright>1000</onright>
                 </control>
                 <control type="button" id="705">
                     <visible>Integer.IsGreater(Container(50).NumItems,0)</visible>
@@ -313,6 +308,16 @@
                 </control>
                 <control type="button" id="6">
                     <label>$LOCALIZE[24022]</label>
+                    <include>LeftMenuButton</include>
+                    <onright>6060</onright>
+                </control>
+                <control type="button" id="8">
+                    <label>$LOCALIZE[24138]</label>
+                    <include>LeftMenuButton</include>
+                    <onright>6060</onright>
+                </control>
+                <control type="button" id="14">
+                    <label>$LOCALIZE[24069]</label>
                     <include>LeftMenuButton</include>
                     <onright>6060</onright>
                 </control>
