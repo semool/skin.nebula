@@ -104,6 +104,7 @@
                     <include>LeftMenuButton</include>
                 </control>
                 <control type="button" id="2001">
+                    <visible>!System.HasAddon(context.embuary.info)</visible>
                     <posx>0</posx>
                     <posy>0</posy>
                     <width>1920</width>
