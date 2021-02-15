@@ -1157,6 +1157,7 @@
                     <onright>9009</onright>
                 </control>
                 <control type="togglebutton" id="10">
+                    <visible>!System.HasAddon(plugin.video.emby-next-gen)</visible>
                     <description>Fanart</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[13511]</label>
