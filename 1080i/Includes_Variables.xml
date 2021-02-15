@@ -901,9 +901,9 @@
         <value condition="Skin.HasSetting(EnableClearLogo)">$INFO[Player.Art(clearlogo)]</value>
     </variable>
     <variable name="VideoCdArt">
-        <value condition="Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)+!String.IsEmpty(Window.Property(DiscArt))">$INFO[Window.Property(DiscArt)]</value>
+        <value condition="[Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)|Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml)]+!String.IsEmpty(Window.Property(DiscArt))">$INFO[Window.Property(DiscArt)]</value>
         <!--<value condition="Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)+String.IsEmpty(Window.Property(DiscArt))">$INFO[Window.Property(Poster)]</value>-->
-        <value condition="Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)+String.IsEmpty(Window.Property(DiscArt))">white/common/cdart.png</value>
+        <value condition="[Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)|Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml)]+String.IsEmpty(Window.Property(DiscArt))">white/common/cdart.png</value>
         <value condition="!String.IsEmpty(ListItem.Art(discart))">$INFO[ListItem.Art(discart)]</value>
         <!--<value>$INFO[ListItem.Art(poster)]</value>-->
         <value>white/common/cdart.png</value>
