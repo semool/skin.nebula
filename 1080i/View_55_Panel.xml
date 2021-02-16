@@ -526,7 +526,7 @@
                 </control>
             </control>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar55)|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar55)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <height>897</height>
@@ -535,7 +535,7 @@
                 <onright>60</onright>
             </control>
             <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar55)</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar55) + String.IsEqual(Container.SortMethod,$LOCALIZE[556])</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <include condition="Window.IsActive(myvideonav.xml) + Skin.HasSetting(AlphabetJumpScrollBar55)">VerticalAlphabetScroller</include>

@@ -292,8 +292,8 @@
                     <posy>183</posy>
                     <width>1920</width>
                     <height>810</height>
-                    <include condition="!Skin.HasSetting(AlphabetJumpScrollBar50)">pagecontrol60</include>
-                    <include condition="Skin.HasSetting(AlphabetJumpScrollBar50)">pagecontrol609</include>
+                    <include condition="[!Skin.HasSetting(AlphabetJumpScrollBar50)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])]">pagecontrol60</include>
+                    <include condition="[Skin.HasSetting(AlphabetJumpScrollBar50)+String.IsEqual(Container.SortMethod,$LOCALIZE[556])]">pagecontrol609</include>
                     <onleft>9000</onleft>
                     <onright>60</onright>
                     <onup>50</onup>
@@ -303,7 +303,7 @@
                 </control>
             </control>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar50)|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar50)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <height>810</height>
@@ -312,7 +312,7 @@
                 <onright>505050</onright>
             </control>
             <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar50)</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar50) + String.IsEqual(Container.SortMethod,$LOCALIZE[556])</visible>
                 <posx>1886</posx>
                 <posy>183</posy>
                 <include condition="Window.IsActive(myvideonav.xml) + Skin.HasSetting(AlphabetJumpScrollBar50)">VerticalAlphabetScroller</include>

@@ -224,7 +224,7 @@
             </control>
             <include>ScrollOffsetLabel_50</include>
             <control type="scrollbar" id="60">
-                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar54)|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
+                <visible>[!Skin.HasSetting(AlphabetJumpScrollBar54)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])|![Container.content(movies)|Container.Content(TVShows)|Container.Content(sets)]]</visible>
                 <posx>0</posx>
                 <posy>1046</posy>
                 <width>1920</width>
@@ -234,7 +234,7 @@
                 <ondown>60</ondown>
             </control>
             <control type="panel" id="60">
-                <visible>Skin.HasSetting(AlphabetJumpScrollBar54)</visible>
+                <visible>Skin.HasSetting(AlphabetJumpScrollBar54) + String.IsEqual(Container.SortMethod,$LOCALIZE[556])</visible>
                 <posx>0</posx>
                 <posy>1024</posy>
                 <include condition="Window.IsActive(myvideonav.xml) + Skin.HasSetting(AlphabetJumpScrollBar54)">HorizontalAlphabetScroller</include>
