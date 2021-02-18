@@ -193,8 +193,8 @@
                 <onup>9000</onup>
                 <ondown>6069</ondown>
                 <viewtype label="31018">Cover Wrap</viewtype>
-                <include condition="[!Skin.HasSetting(AlphabetJumpScrollBar59)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])]">pagecontrol609</include>
-                <include condition="[Skin.HasSetting(AlphabetJumpScrollBar59)+String.IsEqual(Container.SortMethod,$LOCALIZE[556])]">pagecontrol60</include>
+                <include condition="Skin.HasSetting(AlphabetJumpScrollBar59)">pagecontrol60</include>
+                <include condition="!Skin.HasSetting(AlphabetJumpScrollBar59)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])">pagecontrol609</include>
                 <orientation>horizontal</orientation>
                 <focusposition>0</focusposition>
                 <movement>0</movement>

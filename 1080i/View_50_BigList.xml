@@ -292,8 +292,8 @@
                     <posy>183</posy>
                     <width>1920</width>
                     <height>810</height>
-                    <include condition="[!Skin.HasSetting(AlphabetJumpScrollBar50)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])]">pagecontrol60</include>
-                    <include condition="[Skin.HasSetting(AlphabetJumpScrollBar50)+String.IsEqual(Container.SortMethod,$LOCALIZE[556])]">pagecontrol609</include>
+                    <include condition="Skin.HasSetting(AlphabetJumpScrollBar50)">pagecontrol609</include>
+                    <include condition="!Skin.HasSetting(AlphabetJumpScrollBar50)|!String.IsEqual(Container.SortMethod,$LOCALIZE[556])">pagecontrol60</include>
                     <onleft>9000</onleft>
                     <onright>60</onright>
                     <onup>50</onup>
