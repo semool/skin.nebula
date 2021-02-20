@@ -1104,13 +1104,13 @@
                     <onclick>RunScript(script.cinemavision,experience)</onclick>
                     <onright>9009</onright>
                 </control>
-                <control type="button" id="11">
+                <!--<control type="button" id="11">
                     <visible>!String.IsEmpty(ListItem.Trailer)</visible>
                     <description>Trailers</description>
                     <include>LeftMenuButton</include>
                     <label>$LOCALIZE[20410]</label>
                     <onright>9009</onright>
-                </control>
+                </control>-->
                 <control type="button" id="1227">
                     <label>$LOCALIZE[31905]</label>
                     <include>LeftMenuButton</include>
